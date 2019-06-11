@@ -5,9 +5,7 @@
 #include "utils/types.h"
 
 /**
- * Represents (V, D, K, A)-regular expander with vertex set V and degree D
- * Size of maximal set that can be expanded is denoted as K
- * Expansion factor is denoted as A
+ * Represents (V, D, lambda)-regular spectral expander with vertex set V, degree D and spectral gap lambda
  * For purposes of this library size of V and D is assumed to be power of 2 and all vertices and edges
  * are labeled with bit strings
  */

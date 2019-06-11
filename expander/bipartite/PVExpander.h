@@ -36,7 +36,4 @@ protected:
     NTL::GF2EX E;
 };
 
-PVExpander createCondenser(uint32_t n, double k, double eps, double alpha);
-
-
 #endif //EXTRACTORS_PVEXPANDER_H
